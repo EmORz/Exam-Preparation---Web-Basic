@@ -1,12 +1,12 @@
-﻿using System.Security.Cryptography;
-using System.Text;
-using Panda.App.ViewModels.Users;
+﻿using Panda.App.ViewModels.Users;
 using Panda.Models;
 using Panda.Services;
 using SIS.MvcFramework;
 using SIS.MvcFramework.Attributes;
 using SIS.MvcFramework.Attributes.Action;
 using SIS.MvcFramework.Result;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace Panda.App.Controllers
 {

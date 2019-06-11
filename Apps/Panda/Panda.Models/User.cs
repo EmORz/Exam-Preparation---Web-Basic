@@ -15,7 +15,6 @@ namespace Panda.Models
         public Guid Id { get; set; }
 
         [Required]
-        //todo stringlenght validation
         [StringLength(20, MinimumLength = 5)]
         public string Username { get; set; }
 
